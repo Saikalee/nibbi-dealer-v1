@@ -4,6 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "NIBBI Dealer Page · V1 Prototype",
   description: "NIBBI Racing Become a Dealer discussion prototype and delivery workflow.",
+  robots: { index: false, follow: false },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
