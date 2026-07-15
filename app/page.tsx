@@ -40,7 +40,7 @@ function ReviewTag({ children = "待确认" }: { children?: string }) {
 
 export default function Home() {
   const [view, setView] = useState<View>("prototype");
-  const [review, setReview] = useState(true);
+  const [review, setReview] = useState(false);
   const [sent, setSent] = useState(false);
 
   function submit(e: FormEvent<HTMLFormElement>) {
