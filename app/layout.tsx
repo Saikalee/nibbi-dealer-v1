@@ -1,0 +1,11 @@
+import type { Metadata } from "next";
+import "./globals.css";
+
+export const metadata: Metadata = {
+  title: "NIBBI Dealer Page · V1 Prototype",
+  description: "NIBBI Racing Become a Dealer discussion prototype and delivery workflow.",
+};
+
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  return <html lang="zh-CN"><body>{children}</body></html>;
+}
