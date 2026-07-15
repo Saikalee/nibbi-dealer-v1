@@ -69,7 +69,7 @@ export default function Home() {
           </header>
 
           <section className="hero" id="top">
-            <img src="/nibbi/hero.webp" alt="NIBBI Racing off-road riders" />
+            <img src="./nibbi/hero.webp" alt="NIBBI Racing off-road riders" />
             <div className="hero-shade" />
             <div className="hero-content">
               <p className="eyebrow">BECOME A NIBBI DEALER</p>
@@ -91,7 +91,7 @@ export default function Home() {
             <div className="section-kicker">01 / WHY PARTNER WITH NIBBI</div>
             <div className="why-grid">
               <div className="big-statement"><h2>More than parts.<br /><em>A performance system.</em></h2><p>NIBBI connects fuel delivery, intake, control, braking, electronics, transmission and rider gear into one focused off-road product story.</p></div>
-              <div className="image-stack"><img src="/nibbi/rally.jpg" alt="NIBBI rally motorcycle" /><span className="caption">BUILT AROUND THE RIDE</span></div>
+              <div className="image-stack"><img src="./nibbi/rally.jpg" alt="NIBBI rally motorcycle" /><span className="caption">BUILT AROUND THE RIDE</span></div>
             </div>
             <div className="benefit-grid">
               <article><span>01</span><h3>Category depth</h3><p>A broad product system gives dealers more cross-sell paths than a single hero SKU.</p></article>
@@ -108,7 +108,7 @@ export default function Home() {
           </section>
 
           <section className="support section" id="support">
-            <div className="support-visual"><img src="/nibbi/paddock.webp" alt="NIBBI paddock technical support" /><div><span>TRACK</span><span>WORKSHOP</span><span>MARKET</span></div></div>
+            <div className="support-visual"><img src="./nibbi/paddock.webp" alt="NIBBI paddock technical support" /><div><span>TRACK</span><span>WORKSHOP</span><span>MARKET</span></div></div>
             <div className="support-copy"><div className="section-kicker">03 / DEALER ENABLEMENT</div><h2>Support that moves from launch to sell-through.</h2>
               <ul>
                 <li><b>01</b><span><strong>Product onboarding</strong>Category, fitment and product knowledge materials.</span></li>
@@ -137,7 +137,7 @@ export default function Home() {
           </section>
 
           <section className="proof section">
-            <div className="proof-image"><img src="/nibbi/factory.webp" alt="NIBBI production and quality control" /></div>
+            <div className="proof-image"><img src="./nibbi/factory.webp" alt="NIBBI production and quality control" /></div>
             <div><div className="section-kicker">06 / PROOF, NOT PROMISES</div><h2>Show the system behind the product.</h2><p>The final page should connect factory capability, quality control, R&D, racing validation and dealer outcomes to verifiable evidence.</p><div className="proof-placeholder"><b>DEALER SUCCESS STORY</b><span>Reserved for a named dealer, market, challenge, action and measurable result.</span><ReviewTag>案例证据待补</ReviewTag></div></div>
           </section>
 
