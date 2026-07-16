@@ -63,7 +63,7 @@ export default function Home() {
       {view === "prototype" && (
         <>
           <header className="site-header">
-            <a className="brand" href="#top"><b>NIBBI</b><span>RACING</span></a>
+            <a className="brand" href="#top" aria-label="NIBBI Racing home"><img src="./nibbi/nibbi-logo.png" alt="NIBBI Racing" /></a>
             <nav><a href="#why">Why NIBBI</a><a href="#systems">Product Systems</a><a href="#support">Dealer Support</a><a href="#process">How It Works</a></nav>
             <a className="button small" href="#apply">Apply now <span>↗</span></a>
           </header>
@@ -154,7 +154,7 @@ export default function Home() {
 
           <section className="faq section"><div><div className="section-kicker">08 / FAQ</div><h2>Before you apply.</h2></div><div className="faq-list"><details open><summary>What types of businesses can apply?<span>＋</span></summary><p>Proposed scope: established motorcycle retailers, workshops, performance-parts specialists, distributors and qualified multi-channel sellers.</p></details><details><summary>Is there a minimum opening order?<span>＋</span></summary><p>Commercial terms should be shared after qualification and may vary by market, product range and partner type.</p><ReviewTag>MOQ待销售确认</ReviewTag></details><details><summary>Is territory exclusivity available?<span>＋</span></summary><p>Regional authorization should depend on market potential, coverage plan and agreed performance milestones.</p><ReviewTag>授权规则待定</ReviewTag></details><details><summary>What warranty and technical support is included?<span>＋</span></summary><p>The public answer should link to an approved warranty policy and a clear dealer support path before launch.</p><ReviewTag>政策待补</ReviewTag></details></div></section>
 
-          <footer><a className="brand light" href="#top"><b>NIBBI</b><span>RACING</span></a><p>Performance parts. Serious partnership.</p><a href="#apply">BECOME A DEALER ↗</a><small>V1 discussion prototype · Not for public release</small></footer>
+          <footer><a className="brand light" href="#top" aria-label="NIBBI Racing home"><img src="./nibbi/nibbi-logo.png" alt="NIBBI Racing" /></a><p>Performance parts. Serious partnership.</p><a href="#apply">BECOME A DEALER ↗</a><small>V2 discussion prototype · Not for public release</small></footer>
         </>
       )}
 
