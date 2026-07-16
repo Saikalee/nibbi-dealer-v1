@@ -1,2 +1,3 @@
-:HL["/nibbi-dealer-v1/_next/static/chunks/0myy_q2lze-2r.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"lydeQTeSo1ct-Z3eguIgZ"}
+:HL["/nibbi-dealer-v1/_next/static/chunks/02y3uzkubx54e.css","style"]
+:HC["/",""]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"J7qvZjGWmeJKkhkYw1haa"}
