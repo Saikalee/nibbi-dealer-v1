@@ -34,6 +34,25 @@ const references = [
   { type: "跨行业", name: "Patagonia", lesson: "以品牌契合度、经营能力和完整资料做深度资格筛选。", url: "https://dealer.patagonia.com/apply/" },
 ];
 
+const footerCustomerService = [
+  ["Privacy Policy", "https://nibbiracing.com/policies/privacy-policy"],
+  ["Terms of Service", "https://nibbiracing.com/policies/terms-of-service"],
+  ["Refund Policy", "https://nibbiracing.com/policies/refund-policy"],
+  ["Shipping Information", "https://nibbiracing.com/pages/shipping-information"],
+  ["Track Order", "https://nibbiracing.com/a/tracking"],
+  ["Customs & Taxes", "https://nibbiracing.com/pages/customs-taxes"],
+];
+
+const footerSupport = [
+  ["About Us", "https://nibbiracing.com/pages/about-us"],
+  ["Contact Us", "https://nibbiracing.com/pages/contact-us"],
+  ["Carburetor Manual", "https://nibbiracing.com/pages/manual"],
+  ["Ambassador Program", "https://nibbiracing.com/pages/nibbi-rider-support-program"],
+  ["Dealers Application", "https://nibbiracing.com/pages/dealers"],
+  ["Tech Support", "https://nibbiracing.com/pages/tech-support"],
+  ["Your Privacy Choices", "https://nibbiracing.com/pages/data-sharing-opt-out"],
+];
+
 function ReviewTag({ children = "待确认" }: { children?: string }) {
   return <span className="review-tag">{children}</span>;
 }
@@ -154,7 +173,42 @@ export default function Home() {
 
           <section className="faq section"><div><div className="section-kicker">08 / FAQ</div><h2>Before you apply.</h2></div><div className="faq-list"><details open><summary>What types of businesses can apply?<span>＋</span></summary><p>Proposed scope: established motorcycle retailers, workshops, performance-parts specialists, distributors and qualified multi-channel sellers.</p></details><details><summary>Is there a minimum opening order?<span>＋</span></summary><p>Commercial terms should be shared after qualification and may vary by market, product range and partner type.</p><ReviewTag>MOQ待销售确认</ReviewTag></details><details><summary>Is territory exclusivity available?<span>＋</span></summary><p>Regional authorization should depend on market potential, coverage plan and agreed performance milestones.</p><ReviewTag>授权规则待定</ReviewTag></details><details><summary>What warranty and technical support is included?<span>＋</span></summary><p>The public answer should link to an approved warranty policy and a clear dealer support path before launch.</p><ReviewTag>政策待补</ReviewTag></details></div></section>
 
-          <footer><a className="brand light" href="#top" aria-label="NIBBI Racing home"><img src="./nibbi/nibbi-logo.png" alt="NIBBI Racing" /></a><p>Performance parts. Serious partnership.</p><a href="#apply">BECOME A DEALER ↗</a><small>V2 discussion prototype · Not for public release</small></footer>
+          <footer className="official-footer">
+            <div className="footer-grid">
+              <section className="footer-contact">
+                <h3>Contacts Us</h3>
+                <p><strong>Address:</strong> 5901 Christie Ave Suite 406, Emeryville, CA 94608</p>
+                <p><strong>Email:</strong> <a href="mailto:customer@nibbiracing.com">customer@nibbiracing.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+15102307223">+1 (510)230-7223</a></p>
+                <div className="footer-socials" aria-label="NIBBI social channels">
+                  <a href="https://www.facebook.com/nibbiracingusa" target="_blank" rel="noreferrer" aria-label="Facebook">f</a>
+                  <a href="https://www.instagram.com/nibbiracing/" target="_blank" rel="noreferrer" aria-label="Instagram">◎</a>
+                  <a href="https://www.youtube.com/@nibbiracingusa" target="_blank" rel="noreferrer" aria-label="YouTube">▶</a>
+                  <a href="https://www.tiktok.com/@nibbiracingofficial" target="_blank" rel="noreferrer" aria-label="TikTok">♪</a>
+                </div>
+              </section>
+              <section className="footer-column">
+                <h3>Customer Service</h3>
+                <ul>{footerCustomerService.map(([label, url]) => <li key={label}><a href={url} target="_blank" rel="noreferrer">{label}</a></li>)}</ul>
+              </section>
+              <section className="footer-column">
+                <h3>Support</h3>
+                <ul>{footerSupport.map(([label, url]) => <li key={label}><a href={url} target="_blank" rel="noreferrer">{label}</a></li>)}</ul>
+              </section>
+              <section className="footer-newsletter">
+                <h3>Subscribe to our newsletter</h3>
+                <form onSubmit={e => e.preventDefault()}>
+                  <label><span>Email</span><input type="email" placeholder="Email" required /><button type="submit" aria-label="Enter your email">→</button></label>
+                  <label className="newsletter-consent"><input type="checkbox" required />I agree to receiving marketing emails and special deals</label>
+                </form>
+              </section>
+            </div>
+            <div className="footer-bottom">
+              <div className="footer-locale"><span>English</span><span>🇺🇸 United States (USD $)⌄</span></div>
+              <div className="footer-payments" aria-label="Accepted payment methods">{["amazon pay", "AMEX", " Pay", "Discover", "G Pay", "Mastercard", "PayPal", "Shop Pay", "VISA"].map(method => <span key={method}>{method}</span>)}</div>
+              <p>© 2026 NIBBI RACING, All rights reserved.</p>
+            </div>
+          </footer>
         </>
       )}
 
