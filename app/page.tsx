@@ -92,8 +92,8 @@ export default function Home() {
             <div className="hero-shade" />
             <div className="hero-content">
               <p className="eyebrow">BECOME A NIBBI DEALER</p>
-              <h1>Bring performance<br />to your market.</h1>
-              <p className="hero-copy">Build your next growth line with a carburetor-led, off-road performance ecosystem designed around riders, workshops and real-world tuning.</p>
+              <h1>Built for riders.<br />Backed for dealers.</h1>
+              <p className="hero-copy">Bring NIBBI performance products to more riders with structured dealer pricing, product guidance and practical sales support.</p>
               <div className="actions"><a className="button" href="#apply">Start your application <span>↗</span></a><a className="text-link" href="#why">Explore the partnership ↓</a></div>
             </div>
             <div className="hero-index"><span>01</span><i /><span>08</span></div>
@@ -113,10 +113,10 @@ export default function Home() {
               <div className="image-stack"><img src="./nibbi/rally.jpg" alt="NIBBI rally motorcycle" /><span className="caption">BUILT AROUND THE RIDE</span></div>
             </div>
             <div className="benefit-grid">
-              <article><span>01</span><h3>Category depth</h3><p>A broad product system gives dealers more cross-sell paths than a single hero SKU.</p></article>
-              <article><span>02</span><h3>Technical story</h3><p>Fitment, tuning and product knowledge create value at the counter and in the workshop.</p></article>
-              <article><span>03</span><h3>Content engine</h3><p>Product, racing, factory and rider assets can support local launches and education.</p></article>
-              <article><span>04</span><h3>Growth partnership</h3><p>Qualification, onboarding and ongoing review align both sides for sustainable growth.</p><ReviewTag>支持细则待定</ReviewTag></article>
+              <article><span>01</span><h3>Dealer pricing</h3><p>Approved partners receive structured dealer pricing matched to their business and market.</p></article>
+              <article><span>02</span><h3>Technical onboarding</h3><p>Product selection, fitment, installation and basic tuning guidance help teams sell with confidence.</p></article>
+              <article><span>03</span><h3>Marketing toolkit</h3><p>Approved product imagery, campaign assets and launch materials support local activation.</p></article>
+              <article><span>04</span><h3>Growth opportunities</h3><p>Qualified partners may receive dealer visibility, priority support and market development opportunities.</p></article>
             </div>
           </section>
 
@@ -130,10 +130,10 @@ export default function Home() {
             <div className="support-visual"><img src="./nibbi/paddock.webp" alt="NIBBI paddock technical support" /><div><span>TRACK</span><span>WORKSHOP</span><span>MARKET</span></div></div>
             <div className="support-copy"><div className="section-kicker">03 / DEALER ENABLEMENT</div><h2>Support that moves from launch to sell-through.</h2>
               <ul>
-                <li><b>01</b><span><strong>Product onboarding</strong>Category, fitment and product knowledge materials.</span></li>
-                <li><b>02</b><span><strong>Marketing toolkit</strong>Approved brand, product and campaign assets for local use.</span><ReviewTag>物料范围待定</ReviewTag></li>
-                <li><b>03</b><span><strong>Technical support</strong>A structured path for installation and tuning questions.</span><ReviewTag>SLA待定</ReviewTag></li>
-                <li><b>04</b><span><strong>Commercial growth</strong>Regular performance review and market planning.</span><ReviewTag>机制待定</ReviewTag></li>
+                <li><b>01</b><span><strong>Product onboarding</strong>Practical training for product selection, fitment and core NIBBI systems.</span></li>
+                <li><b>02</b><span><strong>Fitment & tuning</strong>Guidance for installation, basic jetting and common product questions.</span></li>
+                <li><b>03</b><span><strong>Marketing toolkit</strong>Approved product, brand and campaign assets for local use.</span></li>
+                <li><b>04</b><span><strong>Warranty & RMA</strong>A clear support path for product questions and after-sales cases.</span></li>
               </ul>
             </div>
           </section>
@@ -142,7 +142,7 @@ export default function Home() {
             <div className="section-kicker">04 / HOW IT WORKS</div><h2>A clear path from interest<br />to market launch.</h2>
             <div className="process-line">{[
               ["01", "Apply", "Tell us about your business and market."],
-              ["02", "Qualify", "We review channel fit, capability and territory."],
+              ["02", "Review", "We review your market, channels and support capability."],
               ["03", "Align", "Discuss range, commercial terms and expectations."],
               ["04", "Onboard", "Complete account setup and product training."],
               ["05", "Grow", "Launch, review performance and expand together."],
@@ -152,18 +152,18 @@ export default function Home() {
 
           <section className="fit section dark">
             <div><div className="section-kicker yellow">05 / PARTNER PROFILE</div><h2>Built for dealers who know the ride—and the market.</h2></div>
-            <div className="fit-list"><p><span>01</span>Established motorcycle, powersports or performance-parts business</p><p><span>02</span>Strong knowledge of local riders, channels and product demand</p><p><span>03</span>Ability to provide credible sales and customer support</p><p><span>04</span>Commitment to building the NIBBI brand for the long term</p><ReviewTag>准入标准待销售确认</ReviewTag></div>
+            <div className="fit-list"><p><span>01</span>Established motorcycle retailer, workshop, distributor or specialist e-commerce business</p><p><span>02</span>Strong knowledge of local riders, channels and product demand</p><p><span>03</span>Ability to represent NIBBI products and provide credible customer support</p><p><span>04</span>Commitment to responsible channels and long-term brand growth</p></div>
           </section>
 
           <section className="proof section">
             <div className="proof-image"><img src="./nibbi/factory.webp" alt="NIBBI production and quality control" /></div>
-            <div><div className="section-kicker">06 / PROOF, NOT PROMISES</div><h2>Show the system behind the product.</h2><p>The final page should connect factory capability, quality control, R&D, racing validation and dealer outcomes to verifiable evidence.</p><div className="proof-placeholder"><b>DEALER SUCCESS STORY</b><span>Reserved for a named dealer, market, challenge, action and measurable result.</span><ReviewTag>案例证据待补</ReviewTag></div></div>
+            <div><div className="section-kicker">06 / BUILT AROUND THE PRODUCT</div><h2>Support grounded in real product knowledge.</h2><p>NIBBI combines product development, quality control and real-world riding feedback with practical materials that help partners explain, recommend and support the range.</p><div className="proof-placeholder"><b>PARTNER ENABLEMENT</b><span>Product guidance, approved assets and an after-sales path designed to support confident selling.</span></div></div>
           </section>
 
           <section className="apply section" id="apply">
-            <div className="apply-intro"><div className="section-kicker yellow">07 / START THE CONVERSATION</div><h2>Ready to build your market with NIBBI?</h2><p>This V1 uses progressive qualification: the first form is short enough to complete, while the sales team collects legal and financial documents only after initial fit is confirmed.</p><div className="form-note"><b>What happens next</b><span>Application review → Sales contact → Qualification call → Commercial discussion</span><ReviewTag>时效待确认</ReviewTag></div></div>
+            <div className="apply-intro"><div className="section-kicker yellow">07 / START THE CONVERSATION</div><h2>Ready to build your market with NIBBI?</h2><p>Tell us about your business, market and sales channels. Qualified applicants will receive the program level, commercial discussion and onboarding path that best fit their capabilities.</p><div className="form-note"><b>What happens next</b><span>Application review → Sales contact → Qualification call → Commercial discussion</span></div></div>
             <form onSubmit={submit}>
-              <div className="fields"><label>Full name<input required placeholder="Your name" /></label><label>Business email<input required type="email" placeholder="name@company.com" /></label><label>Company name<input required placeholder="Company" /></label><label>Country / market<input required placeholder="Country or region" /></label><label>Primary sales channel<select required defaultValue=""><option value="" disabled>Select one</option><option>Physical retail store</option><option>Workshop / service center</option><option>Distributor / wholesaler</option><option>Online retail</option><option>Multi-channel</option></select></label><label>Years in business<select required defaultValue=""><option value="" disabled>Select one</option><option>Less than 1 year</option><option>1–3 years</option><option>4–10 years</option><option>10+ years</option></select></label></div>
+              <div className="fields"><label>Full name<input required placeholder="Your name" /></label><label>Business email<input required type="email" placeholder="name@company.com" /></label><label>Company name<input required placeholder="Company" /></label><label>Business website / store URL<input required type="url" placeholder="https://" /></label><label>Country / market<input required placeholder="Country or region" /></label><label>Primary sales channel<select required defaultValue=""><option value="" disabled>Select one</option><option>Physical retail store</option><option>Workshop / service center</option><option>Distributor / wholesaler</option><option>Online retail</option><option>Multi-channel</option></select></label><label>Years in business<select required defaultValue=""><option value="" disabled>Select one</option><option>Less than 1 year</option><option>1–3 years</option><option>4–10 years</option><option>10+ years</option></select></label><label>Current NIBBI interest<select required defaultValue=""><option value="" disabled>Select one</option><option>Authorized dealer</option><option>Workshop / installer</option><option>Regional distributor</option><option>Not sure yet</option></select></label></div>
               <label>Tell us about your business<textarea required placeholder="Current brands, customer base, sales coverage and why NIBBI fits your market" /></label>
               <label className="consent"><input type="checkbox" required /> I agree that NIBBI may use this information to evaluate and contact me about a potential dealer relationship.</label>
               <button className="button submit" type="submit">{sent ? "Prototype received ✓" : "Submit application ↗"}</button>
@@ -171,7 +171,7 @@ export default function Home() {
             </form>
           </section>
 
-          <section className="faq section"><div><div className="section-kicker">08 / FAQ</div><h2>Before you apply.</h2></div><div className="faq-list"><details open><summary>What types of businesses can apply?<span>＋</span></summary><p>Proposed scope: established motorcycle retailers, workshops, performance-parts specialists, distributors and qualified multi-channel sellers.</p></details><details><summary>Is there a minimum opening order?<span>＋</span></summary><p>Commercial terms should be shared after qualification and may vary by market, product range and partner type.</p><ReviewTag>MOQ待销售确认</ReviewTag></details><details><summary>Is territory exclusivity available?<span>＋</span></summary><p>Regional authorization should depend on market potential, coverage plan and agreed performance milestones.</p><ReviewTag>授权规则待定</ReviewTag></details><details><summary>What warranty and technical support is included?<span>＋</span></summary><p>The public answer should link to an approved warranty policy and a clear dealer support path before launch.</p><ReviewTag>政策待补</ReviewTag></details></div></section>
+          <section className="faq section"><div><div className="section-kicker">08 / FAQ</div><h2>Before you apply.</h2></div><div className="faq-list"><details open><summary>What types of businesses can apply?<span>＋</span></summary><p>We welcome qualified motorcycle and powersports retailers, workshops, distributors and specialist e-commerce businesses that can represent and support NIBBI products.</p></details><details><summary>Will dealer pricing be shown publicly?<span>＋</span></summary><p>Approved partners receive program details and pricing after qualification. Commercial terms may vary by market, product range and partner type.</p></details><details><summary>Do you offer exclusive territories?<span>＋</span></summary><p>Territory opportunities are evaluated case by case based on market coverage, performance, inventory, service capability and a shared growth plan. Exclusivity is not automatic.</p></details><details><summary>What warranty and technical support is included?<span>＋</span></summary><p>Approved dealers receive product guidance and a structured path for technical questions, warranty requests and after-sales cases.</p></details><details><summary>Can I sell on third-party marketplaces?<span>＋</span></summary><p>Approved sales channels are confirmed during onboarding. Marketplace, cross-border and sub-distribution activity may require separate written approval.</p></details></div></section>
 
           <footer className="official-footer">
             <div className="footer-grid">
