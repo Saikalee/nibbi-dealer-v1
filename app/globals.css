@@ -70,3 +70,27 @@ footer{padding:38px 5vw 22px}footer small{padding-top:18px}.light img{width:150p
 @media(max-width:560px){.hero h1{font-size:40px}.signal-strip div{padding:14px}.signal-strip b{font-size:21px}.section{padding:46px 6vw}.big-statement h2,.systems-head h2,.support-copy h2,.process h2,.fit h2,.proof h2,.apply h2,.faq h2{font-size:35px}.benefit-grid{grid-template-columns:1fr 1fr}.benefit-grid article{min-height:160px}.support-copy li span:not(.review-tag){grid-template-columns:1fr;gap:4px}}
 @media(max-width:900px){.official-footer{padding:44px 6vw 22px}.official-footer .footer-grid{grid-template-columns:1fr 1fr;gap:38px 8vw}.footer-bottom{grid-template-columns:1fr}.footer-payments{justify-content:flex-start}}
 @media(max-width:560px){.official-footer .footer-grid{grid-template-columns:1fr;gap:0}.official-footer section{padding:18px 0;border-bottom:1px solid #343434}.official-footer h3{margin-bottom:12px}.footer-column ul{columns:2}.footer-newsletter{border-bottom:0!important}.footer-bottom{margin-top:22px}.footer-locale{flex-direction:column;gap:8px}.footer-payments{gap:4px}.footer-payments span{min-width:34px}}
+
+/* V3 — dealer value signals and full nine-step partnership journey */
+.signal-strip div{align-items:flex-start;flex-direction:column;gap:5px}
+.signal-strip b{font-size:20px;line-height:1.08;text-transform:uppercase}
+.signal-strip span{font-size:9px;line-height:1.35}
+.process-line{grid-template-columns:repeat(3,1fr);column-gap:32px;row-gap:46px}
+.process-line article{min-height:168px;padding-right:16px}
+.process-line i{margin-bottom:20px}
+.process-line p{max-width:340px}
+
+@media(max-width:900px){
+  .process-line{grid-template-columns:1fr;row-gap:0}
+  .process-line article{min-height:0;padding-right:0}
+  .signal-strip b{font-size:17px}
+}
+
+@media(max-width:560px){
+  .signal-strip div{min-height:88px;justify-content:center}
+  .signal-strip b{font-size:15px}
+  .signal-strip span{font-size:8px}
+  .process-line article{grid-template-columns:34px 24px minmax(92px,120px) 1fr}
+  .process-line h3{font-size:16px}
+  .process-line p{font-size:12px}
+}

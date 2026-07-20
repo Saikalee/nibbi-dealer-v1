@@ -100,10 +100,10 @@ export default function Home() {
           </section>
 
           <section className="signal-strip">
-            <div><b>8</b><span>Product systems</span></div>
-            <div><b>2026</b><span>Current product catalog</span></div>
-            <div><b>R&D</b><span>Race-informed development</span></div>
-            <div><b>B2B</b><span>Built for long-term partners</span></div>
+            <div><b>Race-proven</b><span>Products tested in competition</span></div>
+            <div><b>Performance leader</b><span>Built on specialist engineering</span></div>
+            <div><b>Dealer-first</b><span>Support through the full sales cycle</span></div>
+            <div><b>Win together</b><span>Long-term partnership, shared growth</span></div>
           </section>
 
           <section className="why section" id="why">
@@ -139,13 +139,17 @@ export default function Home() {
           </section>
 
           <section className="process section" id="process">
-            <div className="section-kicker">04 / HOW IT WORKS</div><h2>A clear path from interest<br />to market launch.</h2>
+            <div className="section-kicker">04 / HOW IT WORKS</div><h2>From application<br />to long-term growth.</h2>
             <div className="process-line">{[
-              ["01", "Apply", "Tell us about your business and market."],
-              ["02", "Review", "We review your market, channels and support capability."],
-              ["03", "Align", "Discuss range, commercial terms and expectations."],
-              ["04", "Onboard", "Complete account setup and product training."],
-              ["05", "Grow", "Launch, review performance and expand together."],
+              ["01", "Submit application", "Tell us about your business, market and sales channels."],
+              ["02", "Qualification review", "We assess your business credentials and market capability."],
+              ["03", "Partnership confirmation", "Confirm the partnership scope, requirements and next steps."],
+              ["04", "Product consultation", "Identify the product range that best fits your customers and market."],
+              ["05", "Receive quotation", "Receive dealer pricing and a quotation based on your selected products."],
+              ["06", "Confirm order details", "Finalize quantities, payment terms, shipping and delivery information."],
+              ["07", "Delivery", "Your order is prepared, shipped and tracked through delivery."],
+              ["08", "After-sales support", "Access product guidance and support for after-sales cases."],
+              ["09", "Long-term partnership", "Review performance, expand the range and grow the market together."],
             ].map(([n,t,c]) => <article key={n}><b>{n}</b><i /><h3>{t}</h3><p>{c}</p></article>)}</div>
             <p className="process-note"><ReviewTag>建议承诺审核时效前，先确认内部线索SLA</ReviewTag></p>
           </section>
